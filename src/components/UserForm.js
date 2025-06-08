@@ -40,8 +40,7 @@ const UserForm = () => {
       newErrors.country = 'Please select a country';
     if (!formData.city)
       newErrors.city = 'Please select a city';
-    if (formData.panNo.length !== 10)
-      newErrors.panNo = 'Please check PAN number';
+  
     if (formData.aadharNo.length !== 12)
       newErrors.aadharNo = 'Please check Aadhar number';
     

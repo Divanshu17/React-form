@@ -42,7 +42,7 @@ const UserForm = () => {
       newErrors.city = 'Please select a city';
   
     if (formData.aadharNo.length !== 12)
-      newErrors.aadharNo = 'Please check Aadhar number';
+      newErrors.aadharNo = 'Please check adhar number';
     
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;

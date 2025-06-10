@@ -14,6 +14,8 @@ const SuccessPage = () => {
       <div className="user-details">
         <p><strong>Name:</strong> {formData.firstName} {formData.lastName}</p>
         <p><strong>Username:</strong> {formData.username}</p>
+         <p><strong>Username:</strong> {formData.username}</p>
+
         <p><strong>Email:</strong> {formData.email}</p>
         <p><strong>Phone:</strong> {formData.phoneCode} {formData.phoneNumber}</p>
         <p><strong>Location:</strong> {formData.city}, {formData.country}</p>
